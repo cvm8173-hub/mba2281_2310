@@ -38,13 +38,13 @@ BASE_URL = [
   "https://www.shiksha.com/college/mahaveer-institute-of-technology-meerut-43213",
   "https://www.shiksha.com/college/new-prince-shri-bhavani-college-of-engineering-and-technology-velachery-chennai-46788",
   "https://www.shiksha.com/college/rabiammal-ahamed-maideen-college-for-women-thiruvarur-74743",
-  "https://www.shiksha.com/college/skp-engineering-college-skpec-tamil-nadu-other-22962",
-  "https://www.shiksha.com/college/b-m-group-of-institutions-bmgi-gurgaon-24138",
-  "https://www.shiksha.com/college/narasaraopeta-engineering-college-autonomous-guntur-25422",
-  "https://www.shiksha.com/college/hyderabad-school-of-management-148481",
-  "https://www.shiksha.com/college/school-of-future-techno-india-university-kolkata-229285",
-  "https://www.shiksha.com/college/vikrant-institute-of-business-management-gwalior-31589",
-  "https://www.shiksha.com/college/ck-college-of-engineering-and-technology-ckcet-tamil-nadu-other-42702",
+  # "https://www.shiksha.com/college/skp-engineering-college-skpec-tamil-nadu-other-22962",
+  # "https://www.shiksha.com/college/b-m-group-of-institutions-bmgi-gurgaon-24138",
+  # "https://www.shiksha.com/college/narasaraopeta-engineering-college-autonomous-guntur-25422",
+  # "https://www.shiksha.com/college/hyderabad-school-of-management-148481",
+  # "https://www.shiksha.com/college/school-of-future-techno-india-university-kolkata-229285",
+  # "https://www.shiksha.com/college/vikrant-institute-of-business-management-gwalior-31589",
+  # "https://www.shiksha.com/college/ck-college-of-engineering-and-technology-ckcet-tamil-nadu-other-42702",
 ]
 
 
