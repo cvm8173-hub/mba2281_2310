@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/adarsha-school-of-engineering-and-international-polytechnic-angul-147995",
-  "https://www.shiksha.com/college/swami-vivekananda-institute-of-management-khurda-148049",
-  "https://www.shiksha.com/college/r-v-s-college-of-engineering-dindigul-148315",
-  "https://www.shiksha.com/college/priyadarshini-college-of-engineering-and-technology-nellore-22879",
-  "https://www.shiksha.com/college/galaxy-global-group-of-institutions-ambala-34735",
-  "https://www.shiksha.com/college/anand-institute-of-higher-technology-old-mahabalipuram-road-chennai-38141",
-  "https://www.shiksha.com/college/shakuntala-devi-d-ed-college-indore-157067",
-  "https://www.shiksha.com/college/college-of-management-mumbai-189827",
-  "https://www.shiksha.com/college/government-arts-and-science-college-thondamuthur-coimbatore-228363",
-  "https://www.shiksha.com/college/holy-cross-college-tiruchirappalli-3435",
-  "https://www.shiksha.com/college/nif-global-andheri-andheri-west-mumbai-27193",
-  "https://www.shiksha.com/college/maharaja-college-of-management-udaipur-28684",
-  "https://www.shiksha.com/college/gurgaon-college-of-engineering-38235",
-  "https://www.shiksha.com/college/dakshin-institute-of-management-sciences-dims-perungudi-chennai-41656",
-  "https://www.shiksha.com/college/northern-institute-of-engineering-technical-campus-niet-alwar-42304",
-  "https://www.shiksha.com/college/tmi-academy-of-travel-tourism-and-aviation-studies-mumbai-andheri-west-49291",
-  "https://www.shiksha.com/college/dbsom-don-bosco-school-of-management-jayanagar-bangalore-56737",
-  "https://www.shiksha.com/university/cmj-university-meghalaya-other-58121",
-  "https://www.shiksha.com/college/lingayas-institute-of-management-and-technology-vijayawada-60628",
-  "https://www.shiksha.com/college/gandhi-institute-of-excellent-technocrats-bhubaneswar-61403",
+  "https://www.shiksha.com/college/aishwarya-college-of-it-and-management-jodhpur-236420",
+  "https://www.shiksha.com/college/asian-workers-development-institute-awdi-rourkela-19544",
+  "https://www.shiksha.com/college/dav-college-amritsar-25375",
+  "https://www.shiksha.com/university/pratap-university-jaipur-38054",
+  "https://www.shiksha.com/college/institute-of-business-management-and-research-ibmr-kolkata-e-m-bypass-40727",
+  "https://www.shiksha.com/college/aihm-noida-47427",
+  "https://www.shiksha.com/college/itm-skills-academy-navi-mumbai-mumbai-49036",
+  "https://www.shiksha.com/college/dwaraka-doss-goverdhan-doss-vaishnav-college-arumbakkam-chennai-49449",
+  "https://www.shiksha.com/college/school-of-business-management-and-commerce-mvn-university-palwal-53363",
+  "https://www.shiksha.com/college/smit-saroj-mohan-institute-of-technology-hooghly-53867",
+  "https://www.shiksha.com/college/westford-international-college-okhla-delhi-56417",
+  "https://www.shiksha.com/college/vit-ap-school-of-business-vit-ap-university-amaravati-150979",
+  "https://www.shiksha.com/college/vamsi-institute-of-management-studies-rayagada-208999",
+  "https://www.shiksha.com/college/ch-s-d-st-theresa-s-college-for-women-andhra-pradesh-andhra-pradesh-other-19693",
+  "https://www.shiksha.com/college/sakthi-mariamman-engineering-college-thandalam-chennai-21058",
+  "https://www.shiksha.com/college/college-of-engineering-and-technology-akola-21315",
+  "https://www.shiksha.com/college/st-johns-college-of-engineering-and-technology-sjcet-kurnool-21322",
+  "https://www.shiksha.com/college/gokul-institute-of-technology-and-sciences-andhra-pradesh-other-23332",
+  "https://www.shiksha.com/college/dns-group-of-institutions-amroha-24969",
+  "https://www.shiksha.com/college/ghaziabad-institute-of-hotel-management-gihm-25260",
 ]
 
 
@@ -9242,7 +9242,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2031
+    c_count = 2311
 
     try:
         for base_url in BASE_URL:
