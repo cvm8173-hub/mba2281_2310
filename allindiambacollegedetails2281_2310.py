@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/aishwarya-college-of-it-and-management-jodhpur-236420",
-  "https://www.shiksha.com/college/asian-workers-development-institute-awdi-rourkela-19544",
-  "https://www.shiksha.com/college/dav-college-amritsar-25375",
-  "https://www.shiksha.com/university/pratap-university-jaipur-38054",
-  "https://www.shiksha.com/college/institute-of-business-management-and-research-ibmr-kolkata-e-m-bypass-40727",
-  "https://www.shiksha.com/college/aihm-noida-47427",
-  "https://www.shiksha.com/college/itm-skills-academy-navi-mumbai-mumbai-49036",
-  "https://www.shiksha.com/college/dwaraka-doss-goverdhan-doss-vaishnav-college-arumbakkam-chennai-49449",
-  "https://www.shiksha.com/college/school-of-business-management-and-commerce-mvn-university-palwal-53363",
-  "https://www.shiksha.com/college/smit-saroj-mohan-institute-of-technology-hooghly-53867",
-  "https://www.shiksha.com/college/westford-international-college-okhla-delhi-56417",
-  "https://www.shiksha.com/college/vit-ap-school-of-business-vit-ap-university-amaravati-150979",
-  "https://www.shiksha.com/college/vamsi-institute-of-management-studies-rayagada-208999",
-  "https://www.shiksha.com/college/ch-s-d-st-theresa-s-college-for-women-andhra-pradesh-andhra-pradesh-other-19693",
-  "https://www.shiksha.com/college/sakthi-mariamman-engineering-college-thandalam-chennai-21058",
-  "https://www.shiksha.com/college/college-of-engineering-and-technology-akola-21315",
-  "https://www.shiksha.com/college/st-johns-college-of-engineering-and-technology-sjcet-kurnool-21322",
-  "https://www.shiksha.com/college/gokul-institute-of-technology-and-sciences-andhra-pradesh-other-23332",
-  "https://www.shiksha.com/college/dns-group-of-institutions-amroha-24969",
-  "https://www.shiksha.com/college/ghaziabad-institute-of-hotel-management-gihm-25260",
+  "https://www.shiksha.com/college/rai-technology-university-hubli-61291",
+  "https://www.shiksha.com/college/astral-institute-of-business-management-indore-147471",
+  "https://www.shiksha.com/college/ssm-school-of-management-and-computer-applications-namakkal-148257",
+  "https://www.shiksha.com/college/mascot-institute-of-management-bareilly-149063",
+  "https://www.shiksha.com/college/triveni-institute-of-management-education-baghpat-149135",
+  "https://www.shiksha.com/college/vikramaditya-institute-of-management-and-technology-bhopal-156971",
+  "https://www.shiksha.com/college/ahirkar-institute-of-management-studies-nagpur-179843",
+  "https://www.shiksha.com/college/venkateshwara-institute-of-technology-meerut-184281",
+  "https://www.shiksha.com/college/gh-raisoni-institute-of-information-technology-nagpur-189225",
+  "https://www.shiksha.com/college/jagannath-university-powered-by-sunstone-jaipur-213097",
+  "https://www.shiksha.com/college/kmct-institute-of-technology-and-management-kuttipuram-kerala-other-213473",
+  "https://www.shiksha.com/college/siddhartha-womens-degree-college-ranga-reddy-232456",
+  "https://www.shiksha.com/college/motilal-rastogi-school-of-management-lucknow-4305",
+  "https://www.shiksha.com/college/lorven-college-of-science-and-management-anekal-bangalore-5729",
+  "https://www.shiksha.com/college/purushottam-institute-of-engineering-and-technology-piet-rourkela-20925",
+  "https://www.shiksha.com/college/thiruvalluvar-college-of-engineering-and-technology-tamil-nadu-other-23059",
+  "https://www.shiksha.com/college/st-augustine-pg-college-hyderabad-62233",
+  "https://www.shiksha.com/college/sri-kalahastiswara-institute-of-information-and-management-sciences-chittoor-62407",
+  "https://www.shiksha.com/college/panache-academy-indore-63641",
+  "https://www.shiksha.com/college/sng-institute-of-management-and-research-nashik-64371",
 ]
 
 
@@ -9242,7 +9242,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2311
+    c_count = 2591
 
     try:
         for base_url in BASE_URL:
