@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/rajeev-gandhi-management-institute-bhopal-68651",
-  "https://www.shiksha.com/university/jeppiaar-university-chennai-209061",
-  "https://www.shiksha.com/college/dr-rizvi-college-of-engineering-uttar-pradesh-other-24940",
-  "https://www.shiksha.com/college/cms-bangalore-lalbagh-rd-36510",
-  "https://www.shiksha.com/college/skr-engineering-college-poonamallee-chennai-39503",
-  "https://www.shiksha.com/college/vivekanand-institute-of-technology-and-science-ghaziabad-42656",
-  "https://www.shiksha.com/college/nirmala-college-of-engineering-thrissur-47524",
-  "https://www.shiksha.com/college/naranlala-college-of-commerce-and-management-navsari-59067",
-  "https://www.shiksha.com/college/lnct-excellence-college-bhopal-60714",
-  "https://www.shiksha.com/college/indira-institute-of-engineering-and-technology-thiruvarur-61629",
-  "https://www.shiksha.com/college/vignanasudha-institute-of-management-and-technology-chittoor-62511",
-  "https://www.shiksha.com/college/modinagar-institute-of-technology-52780",
-  "https://www.shiksha.com/university/bhabha-university-bhopal-58265",
-  "https://www.shiksha.com/college/sahayog-educational-campus-indira-college-of-pharmacy-nanded-64615",
-  "https://www.shiksha.com/college/lovely-professional-university-seekho-chandigarh-212295",
-  "https://www.shiksha.com/college/chennais-amirta-international-aviation-college-nandanam-226945",
-  "https://www.shiksha.com/college/hitkarini-college-of-engineering-and-technology-hcet-jabalpur-20148",
-  "https://www.shiksha.com/college/nibms-borivali-east-mumbai-31939",
-  "https://www.shiksha.com/college/innovation-the-business-school-ibs-orissa-orissa-other-37471",
-  "https://www.shiksha.com/college/indian-institute-of-fashion-technology-iift-bareilly-40912",
-  # "https://www.shiksha.com/college/ushodaya-institute-of-management-and-technology-ibrahimpatnam-hyderabad-46932",
-  # "https://www.shiksha.com/college/r-l-jalappa-institute-of-technology-bangalore-karnataka-other-59707",
-  # "https://www.shiksha.com/college/kirsan-s-mission-institute-of-management-gondia-64331",
-  # "https://www.shiksha.com/college/nadar-saraswathi-college-of-arts-and-science-theni-68649",
-  # "https://www.shiksha.com/college/madhuban-institute-of-professional-studies-indore-68989",
-  # "https://www.shiksha.com/college/jhankar-college-gurgaon-208767",
-  # "https://www.shiksha.com/college/azad-institute-of-management-ranga-reddy-148533",
-  # "https://www.shiksha.com/college/artemisia-business-school-indore-156979",
-  # "https://www.shiksha.com/college/ireed-academy-gurgaon-215531",
-  # "https://www.shiksha.com/college/united-international-degree-college-kannur-bangalore-225207",
+  # "https://www.shiksha.com/college/rajeev-gandhi-management-institute-bhopal-68651",
+  # "https://www.shiksha.com/university/jeppiaar-university-chennai-209061",
+  # "https://www.shiksha.com/college/dr-rizvi-college-of-engineering-uttar-pradesh-other-24940",
+  # "https://www.shiksha.com/college/cms-bangalore-lalbagh-rd-36510",
+  # "https://www.shiksha.com/college/skr-engineering-college-poonamallee-chennai-39503",
+  # "https://www.shiksha.com/college/vivekanand-institute-of-technology-and-science-ghaziabad-42656",
+  # "https://www.shiksha.com/college/nirmala-college-of-engineering-thrissur-47524",
+  # "https://www.shiksha.com/college/naranlala-college-of-commerce-and-management-navsari-59067",
+  # "https://www.shiksha.com/college/lnct-excellence-college-bhopal-60714",
+  # "https://www.shiksha.com/college/indira-institute-of-engineering-and-technology-thiruvarur-61629",
+  # "https://www.shiksha.com/college/vignanasudha-institute-of-management-and-technology-chittoor-62511",
+  # "https://www.shiksha.com/college/modinagar-institute-of-technology-52780",
+  # "https://www.shiksha.com/university/bhabha-university-bhopal-58265",
+  # "https://www.shiksha.com/college/sahayog-educational-campus-indira-college-of-pharmacy-nanded-64615",
+  # "https://www.shiksha.com/college/lovely-professional-university-seekho-chandigarh-212295",
+  # "https://www.shiksha.com/college/chennais-amirta-international-aviation-college-nandanam-226945",
+  # "https://www.shiksha.com/college/hitkarini-college-of-engineering-and-technology-hcet-jabalpur-20148",
+  # "https://www.shiksha.com/college/nibms-borivali-east-mumbai-31939",
+  # "https://www.shiksha.com/college/innovation-the-business-school-ibs-orissa-orissa-other-37471",
+  # "https://www.shiksha.com/college/indian-institute-of-fashion-technology-iift-bareilly-40912",
+  "https://www.shiksha.com/college/ushodaya-institute-of-management-and-technology-ibrahimpatnam-hyderabad-46932",
+  "https://www.shiksha.com/college/r-l-jalappa-institute-of-technology-bangalore-karnataka-other-59707",
+  "https://www.shiksha.com/college/kirsan-s-mission-institute-of-management-gondia-64331",
+  "https://www.shiksha.com/college/nadar-saraswathi-college-of-arts-and-science-theni-68649",
+  "https://www.shiksha.com/college/madhuban-institute-of-professional-studies-indore-68989",
+  "https://www.shiksha.com/college/jhankar-college-gurgaon-208767",
+  "https://www.shiksha.com/college/azad-institute-of-management-ranga-reddy-148533",
+  "https://www.shiksha.com/college/artemisia-business-school-indore-156979",
+  "https://www.shiksha.com/college/ireed-academy-gurgaon-215531",
+  "https://www.shiksha.com/college/united-international-degree-college-kannur-bangalore-225207",
 ]
 
 
@@ -9252,7 +9252,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1741
+    c_count = 1761
 
     try:
         for base_url in BASE_URL:
